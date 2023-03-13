@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    display: bloc;
+    list-style: none;
+    margin: 20px;
+}
+article {
+    margin: 20px;}
+
+header{
+    font-size: 20px;
+    font-weight: 700;
+}
+nav{
+    display: block;
+    background-color: #c3d1a7;
+}
+ul{
+    display: list-item;
+    justify-content: center;
+}
+#navbar{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    
+}
+
+#main-doc{
+    display: block;
+    margin-left: 450px;
+    position: absolute;
+
+}
+
+#title-nav{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+   header{
+    font-size: 40px;
+   }
+}
